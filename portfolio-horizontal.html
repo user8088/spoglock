@@ -19,6 +19,12 @@
    <link rel="stylesheet" href="assets/css/effect-slicer.css">
    <link rel="stylesheet" href="assets/css/spacing.css">
    <link rel="stylesheet" href="assets/css/main.css">
+  <style>
+    /* Strong overlay for readability on horizontal slider */
+    .tp-portfolio-horizontal-inner{position:relative;overflow:hidden;}
+    .tp-portfolio-horizontal-inner:before{content:"";position:absolute;inset:0;background:rgba(0,0,0,0.6);pointer-events:none;}
+    .tp-portfolio-horizontal-content{position:relative;z-index:2;}
+  </style>
 </head>
 
 <body class="tp-magic-cursor loaded">
@@ -224,11 +230,281 @@
                 <div class="swiper tp-portfolio-horizontal-active">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="tp-portfolio-horizontal-inner bg-position" data-background="assets/img/portfolio/portfolio-horizontal/thumb.jpg" data-swiper-parallax="1000">
+                            <div class="tp-portfolio-horizontal-inner bg-position" data-background="assets/img/portfolio/grid/3d-ui.png" data-swiper-parallax="1000">
                                 <div class="tp-portfolio-horizontal-content" data-swiper-parallax="2000">
                                     <div class="tp-portfolio-horizontal-title-wrap">
-                                        <span class="tp-portfolio-horizontal-tag">OUR VISION</span>
-                                        <h2 class="tp-portfolio-horizontal-title"><a href="portfolio-details-gallery-light.html"> DESIGN </a></h2>
+                                        <span class="tp-portfolio-horizontal-tag">UI/UX</span>
+                                        <h2 class="tp-portfolio-horizontal-title"><a href="portfolio-details-gallery-light.html"> 3D E-commerce Concept </a></h2>
+                                    </div>
+                                    <p class="tp-portfolio-horizontal-disc">
+                                        Credibly leverage existing business experiences through
+                                        <br>
+                                        magnetic mindshare. Synergistically exploit efficient
+                                        <br>
+                                         partnerships world-class applications.
+                                    </p>
+                                    <div class="tp-portfolio-horizontal-btn-wrap">
+                                        <a class="tp-portfolio-horizontal-btn" href="portfolio-details-gallery-light.html">
+                                            <div class="tp-portfolio-horizontal-btn-circle">
+                                                <div class="circle">
+                                                    <div class="circle-fill"></div>
+                                                    <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" class="circle-outline">
+                                                        <circle cx="25" cy="25" r="23"></circle>
+                                                    </svg>
+                                                    <div class="circle-icon">
+                                                        <svg viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-arrow">
+                                                            <path d="M0 5.65612V4.30388L8.41874 4.31842L5.05997 0.95965L5.99054 0L10.9923 4.97273L6.00508 9.96L5.07451 9.00035L8.43328 5.64158L0 5.65612Z"></path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="tp-portfolio-horizontal-btn-label">
+                                                <div class="tp-portfolio-horizontal-btn-text">Take A Look</div>
+                                                <div class="tp-portfolio-horizontal-btn-border"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Additional UI/UX Slides -->
+                        <div class="swiper-slide">
+                            <div class="tp-portfolio-horizontal-inner bg-position" data-background="assets/img/portfolio/grid/drone.png" data-swiper-parallax="1000">
+                                <div class="tp-portfolio-horizontal-content" data-swiper-parallax="2000">
+                                    <div class="tp-portfolio-horizontal-title-wrap">
+                                        <span class="tp-portfolio-horizontal-tag">UI/UX</span>
+                                        <h2 class="tp-portfolio-horizontal-title"><a href="portfolio-details-gallery-light.html"> Drone E-commerce Concept </a></h2>
+                                    </div>
+                                    <p class="tp-portfolio-horizontal-disc">Category pages and PDP interactions for a drone store.</p>
+                                    <div class="tp-portfolio-horizontal-btn-wrap">
+                                        <a class="tp-portfolio-horizontal-btn" href="portfolio-details-gallery-light.html">
+                                            <div class="tp-portfolio-horizontal-btn-circle">
+                                                <div class="circle">
+                                                    <div class="circle-fill"></div>
+                                                    <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" class="circle-outline">
+                                                        <circle cx="25" cy="25" r="23"></circle>
+                                                    </svg>
+                                                    <div class="circle-icon">
+                                                        <svg viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-arrow">
+                                                            <path d="M0 5.65612V4.30388L8.41874 4.31842L5.05997 0.95965L5.99054 0L10.9923 4.97273L6.00508 9.96L5.07451 9.00035L8.43328 5.64158L0 5.65612Z"></path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tp-portfolio-horizontal-btn-label">
+                                                <div class="tp-portfolio-horizontal-btn-text">Take A Look</div>
+                                                <div class="tp-portfolio-horizontal-btn-border"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="tp-portfolio-horizontal-inner bg-position" data-background="assets/img/portfolio/grid/indus-1.png" data-swiper-parallax="1000">
+                                <div class="tp-portfolio-horizontal-content" data-swiper-parallax="2000">
+                                    <div class="tp-portfolio-horizontal-title-wrap">
+                                        <span class="tp-portfolio-horizontal-tag">UI/UX</span>
+                                        <h2 class="tp-portfolio-horizontal-title"><a href="portfolio-details-gallery-light.html"> Industrial Design Variation 1 </a></h2>
+                                    </div>
+                                    <p class="tp-portfolio-horizontal-disc">Operational dashboard with KPIs and alerts.</p>
+                                    <div class="tp-portfolio-horizontal-btn-wrap">
+                                        <a class="tp-portfolio-horizontal-btn" href="portfolio-details-gallery-light.html">
+                                            <div class="tp-portfolio-horizontal-btn-circle">
+                                                <div class="circle">
+                                                    <div class="circle-fill"></div>
+                                                    <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" class="circle-outline">
+                                                        <circle cx="25" cy="25" r="23"></circle>
+                                                    </svg>
+                                                    <div class="circle-icon">
+                                                        <svg viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-arrow">
+                                                            <path d="M0 5.65612V4.30388L8.41874 4.31842L5.05997 0.95965L5.99054 0L10.9923 4.97273L6.00508 9.96L5.07451 9.00035L8.43328 5.64158L0 5.65612Z"></path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tp-portfolio-horizontal-btn-label">
+                                                <div class="tp-portfolio-horizontal-btn-text">Take A Look</div>
+                                                <div class="tp-portfolio-horizontal-btn-border"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="tp-portfolio-horizontal-inner bg-position" data-background="assets/img/portfolio/grid/indus-2.png" data-swiper-parallax="1000">
+                                <div class="tp-portfolio-horizontal-content" data-swiper-parallax="2000">
+                                    <div class="tp-portfolio-horizontal-title-wrap">
+                                        <span class="tp-portfolio-horizontal-tag">UI/UX</span>
+                                        <h2 class="tp-portfolio-horizontal-title"><a href="portfolio-details-gallery-light.html"> Industrial Design Variation 2 </a></h2>
+                                    </div>
+                                    <p class="tp-portfolio-horizontal-disc">Catalog layout and detail views for devices.</p>
+                                    <div class="tp-portfolio-horizontal-btn-wrap">
+                                        <a class="tp-portfolio-horizontal-btn" href="portfolio-details-gallery-light.html">
+                                            <div class="tp-portfolio-horizontal-btn-circle">
+                                                <div class="circle">
+                                                    <div class="circle-fill"></div>
+                                                    <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" class="circle-outline">
+                                                        <circle cx="25" cy="25" r="23"></circle>
+                                                    </svg>
+                                                    <div class="circle-icon">
+                                                        <svg viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-arrow">
+                                                            <path d="M0 5.65612V4.30388L8.41874 4.31842L5.05997 0.95965L5.99054 0L10.9923 4.97273L6.00508 9.96L5.07451 9.00035L8.43328 5.64158L0 5.65612Z"></path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tp-portfolio-horizontal-btn-label">
+                                                <div class="tp-portfolio-horizontal-btn-text">Take A Look</div>
+                                                <div class="tp-portfolio-horizontal-btn-border"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="tp-portfolio-horizontal-inner bg-position" data-background="assets/img/portfolio/grid/interr-1.png" data-swiper-parallax="1000">
+                                <div class="tp-portfolio-horizontal-content" data-swiper-parallax="2000">
+                                    <div class="tp-portfolio-horizontal-title-wrap">
+                                        <span class="tp-portfolio-horizontal-tag">UI/UX</span>
+                                        <h2 class="tp-portfolio-horizontal-title"><a href="portfolio-details-gallery-light.html"> Interior Design Concept 1 </a></h2>
+                                    </div>
+                                    <p class="tp-portfolio-horizontal-disc">Lifestyle brand homepage exploration.</p>
+                                    <div class="tp-portfolio-horizontal-btn-wrap">
+                                        <a class="tp-portfolio-horizontal-btn" href="portfolio-details-gallery-light.html">
+                                            <div class="tp-portfolio-horizontal-btn-circle">
+                                                <div class="circle">
+                                                    <div class="circle-fill"></div>
+                                                    <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" class="circle-outline">
+                                                        <circle cx="25" cy="25" r="23"></circle>
+                                                    </svg>
+                                                    <div class="circle-icon">
+                                                        <svg viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-arrow">
+                                                            <path d="M0 5.65612V4.30388L8.41874 4.31842L5.05997 0.95965L5.99054 0L10.9923 4.97273L6.00508 9.96L5.07451 9.00035L8.43328 5.64158L0 5.65612Z"></path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tp-portfolio-horizontal-btn-label">
+                                                <div class="tp-portfolio-horizontal-btn-text">Take A Look</div>
+                                                <div class="tp-portfolio-horizontal-btn-border"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="tp-portfolio-horizontal-inner bg-position" data-background="assets/img/portfolio/grid/inter-2.png" data-swiper-parallax="1000">
+                                <div class="tp-portfolio-horizontal-content" data-swiper-parallax="2000">
+                                    <div class="tp-portfolio-horizontal-title-wrap">
+                                        <span class="tp-portfolio-horizontal-tag">UI/UX</span>
+                                        <h2 class="tp-portfolio-horizontal-title"><a href="portfolio-details-gallery-light.html"> Interior Design Concept 2 </a></h2>
+                                    </div>
+                                    <p class="tp-portfolio-horizontal-disc">Refined product listing and details layout.</p>
+                                    <div class="tp-portfolio-horizontal-btn-wrap">
+                                        <a class="tp-portfolio-horizontal-btn" href="portfolio-details-gallery-light.html">
+                                            <div class="tp-portfolio-horizontal-btn-circle">
+                                                <div class="circle">
+                                                    <div class="circle-fill"></div>
+                                                    <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" class="circle-outline">
+                                                        <circle cx="25" cy="25" r="23"></circle>
+                                                    </svg>
+                                                    <div class="circle-icon">
+                                                        <svg viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-arrow">
+                                                            <path d="M0 5.65612V4.30388L8.41874 4.31842L5.05997 0.95965L5.99054 0L10.9923 4.97273L6.00508 9.96L5.07451 9.00035L8.43328 5.64158L0 5.65612Z"></path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tp-portfolio-horizontal-btn-label">
+                                                <div class="tp-portfolio-horizontal-btn-text">Take A Look</div>
+                                                <div class="tp-portfolio-horizontal-btn-border"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="tp-portfolio-horizontal-inner bg-position" data-background="assets/img/portfolio/grid/nike.png" data-swiper-parallax="1000">
+                                <div class="tp-portfolio-horizontal-content" data-swiper-parallax="2000">
+                                    <div class="tp-portfolio-horizontal-title-wrap">
+                                        <span class="tp-portfolio-horizontal-tag">UI/UX</span>
+                                        <h2 class="tp-portfolio-horizontal-title"><a href="portfolio-details-gallery-light.html"> Nike E-commerce Concept </a></h2>
+                                    </div>
+                                    <p class="tp-portfolio-horizontal-disc">Bold product hero and checkout flow.</p>
+                                    <div class="tp-portfolio-horizontal-btn-wrap">
+                                        <a class="tp-portfolio-horizontal-btn" href="portfolio-details-gallery-light.html">
+                                            <div class="tp-portfolio-horizontal-btn-circle">
+                                                <div class="circle">
+                                                    <div class="circle-fill"></div>
+                                                    <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" class="circle-outline">
+                                                        <circle cx="25" cy="25" r="23"></circle>
+                                                    </svg>
+                                                    <div class="circle-icon">
+                                                        <svg viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-arrow">
+                                                            <path d="M0 5.65612V4.30388L8.41874 4.31842L5.05997 0.95965L5.99054 0L10.9923 4.97273L6.00508 9.96L5.07451 9.00035L8.43328 5.64158L0 5.65612Z"></path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tp-portfolio-horizontal-btn-label">
+                                                <div class="tp-portfolio-horizontal-btn-text">Take A Look</div>
+                                                <div class="tp-portfolio-horizontal-btn-border"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="tp-portfolio-horizontal-inner bg-position" data-background="assets/img/portfolio/grid/pizza.png" data-swiper-parallax="1000">
+                                <div class="tp-portfolio-horizontal-content" data-swiper-parallax="2000">
+                                    <div class="tp-portfolio-horizontal-title-wrap">
+                                        <span class="tp-portfolio-horizontal-tag">UI/UX</span>
+                                        <h2 class="tp-portfolio-horizontal-title"><a href="portfolio-details-gallery-light.html"> Pizzeria Web Concept </a></h2>
+                                    </div>
+                                    <p class="tp-portfolio-horizontal-disc">Playful restaurant website and online order flow.</p>
+                                    <div class="tp-portfolio-horizontal-btn-wrap">
+                                        <a class="tp-portfolio-horizontal-btn" href="portfolio-details-gallery-light.html">
+                                            <div class="tp-portfolio-horizontal-btn-circle">
+                                                <div class="circle">
+                                                    <div class="circle-fill"></div>
+                                                    <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" class="circle-outline">
+                                                        <circle cx="25" cy="25" r="23"></circle>
+                                                    </svg>
+                                                    <div class="circle-icon">
+                                                        <svg viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-arrow">
+                                                            <path d="M0 5.65612V4.30388L8.41874 4.31842L5.05997 0.95965L5.99054 0L10.9923 4.97273L6.00508 9.96L5.07451 9.00035L8.43328 5.64158L0 5.65612Z"></path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tp-portfolio-horizontal-btn-label">
+                                                <div class="tp-portfolio-horizontal-btn-text">Take A Look</div>
+                                                <div class="tp-portfolio-horizontal-btn-border"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="tp-portfolio-horizontal-inner bg-position" data-background="assets/img/portfolio/grid/corp-1.png" data-swiper-parallax="1000">
+                                <div class="tp-portfolio-horizontal-content" data-swiper-parallax="2000">
+                                    <div class="tp-portfolio-horizontal-title-wrap">
+                                        <span class="tp-portfolio-horizontal-tag">UI/UX</span>
+                                        <h2 class="tp-portfolio-horizontal-title"><a href="portfolio-details-gallery-light.html"> Corporate Site Concept </a></h2>
                                     </div>
                                     <p class="tp-portfolio-horizontal-disc">
                                         Credibly leverage existing business experiences through
@@ -264,50 +540,11 @@
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="tp-portfolio-horizontal-inner bg-position" data-background="assets/img/portfolio/portfolio-horizontal/thumb-2.jpg" data-swiper-parallax="1000">
+                            <div class="tp-portfolio-horizontal-inner bg-position" data-background="assets/img/portfolio/grid/corp-2.png" data-swiper-parallax="1000">
                                 <div class="tp-portfolio-horizontal-content" data-swiper-parallax="2000">
                                     <div class="tp-portfolio-horizontal-title-wrap">
-                                        <span class="tp-portfolio-horizontal-tag">INSPIRATION</span>
-                                        <h2 class="tp-portfolio-horizontal-title"><a href="portfolio-details-gallery-light.html"> MOTION </a></h2>
-                                    </div>
-                                    <p class="tp-portfolio-horizontal-disc">
-                                        Credibly leverage existing business experiences through
-                                        <br>
-                                        magnetic mindshare. Synergistically exploit efficient
-                                        <br>
-                                         partnerships world-class applications.
-                                    </p>
-                                    <div class="tp-portfolio-horizontal-btn-wrap">
-                                        <a class="tp-portfolio-horizontal-btn" href="portfolio-details-gallery-light.html">
-                                            <div class="tp-portfolio-horizontal-btn-circle">
-                                                <div class="circle">
-                                                    <div class="circle-fill"></div>
-                                                    <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" class="circle-outline">
-                                                        <circle cx="25" cy="25" r="23"></circle>
-                                                    </svg>
-                                                    <div class="circle-icon">
-                                                        <svg viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-arrow">
-                                                            <path d="M0 5.65612V4.30388L8.41874 4.31842L5.05997 0.95965L5.99054 0L10.9923 4.97273L6.00508 9.96L5.07451 9.00035L8.43328 5.64158L0 5.65612Z"></path>
-                                                        </svg>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="tp-portfolio-horizontal-btn-label">
-                                                <div class="tp-portfolio-horizontal-btn-text">Take A Look</div>
-                                                <div class="tp-portfolio-horizontal-btn-border"></div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="tp-portfolio-horizontal-inner bg-position" data-background="assets/img/portfolio/portfolio-horizontal/thumb-3.jpg" data-swiper-parallax="1000">
-                                <div class="tp-portfolio-horizontal-content" data-swiper-parallax="2000">
-                                    <div class="tp-portfolio-horizontal-title-wrap">
-                                        <h2 class="tp-portfolio-horizontal-title"><a href="portfolio-details-gallery-light.html"> ENGINE </a></h2>
+                                        <span class="tp-portfolio-horizontal-tag">UI/UX</span>
+                                        <h2 class="tp-portfolio-horizontal-title"><a href="portfolio-details-gallery-light.html"> Corporate Web Concept </a></h2>
                                     </div>
                                     <p class="tp-portfolio-horizontal-disc">
                                         Credibly leverage existing business experiences through
@@ -354,7 +591,7 @@
                     <div class="tp-portfolio-horizontal-pagination-area">
                         <h5 class="slide-range one">01</h5>
                         <div class="swiper-pagination swiper-pagination-progressbar swiper-pagination-horizontal"><span class="swiper-pagination-progressbar-fill" style="transform: translate3d(0px, 0px, 0px) scaleX(0.666667) scaleY(1); transition-duration: 1500ms;"></span></div>
-                        <h5 class="slide-range three">03</h5>
+                        <h5 class="slide-range three">10</h5>
                     </div>
                 </div>
             </div>
